@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,7 +11,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        tools:text="12"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
         android:id="@+id/txt_progress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,14 +29,14 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/image"
         />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/image2"
         />
@@ -42,6 +45,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Upload Your Image"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"
         android:id="@+id/btn_upload"/>
 
 
